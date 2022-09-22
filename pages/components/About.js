@@ -20,7 +20,7 @@ const About = () =>{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div><br/><br/><br/>
                     <div className="container-fluid bg-light p-5">
                         <h1 className="display-4 fw-bolder text-center">&quot;JSB Residences DISUD&quot;</h1>
                         <hr className="my-4" />
