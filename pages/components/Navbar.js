@@ -2,12 +2,10 @@ import Link from "next/link"
 import Image from "next/image"
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-default navbar-trans navbar-expand-lg fixed-top bg-white">
+    <nav className="navbar navbar-default navbar-expand-lg fixed-top bg-white">
         <div className="container">
-        <button className="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-            <span></span>
-            <span></span>
-            <span></span>
+        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDefault" aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
         <Image 
         src='/static/logo.ico'
