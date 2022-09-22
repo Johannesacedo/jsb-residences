@@ -21,89 +21,89 @@ const Contact = () =>{
                 </div><br/><br/>
             </div>
             <div className='container'>
-                <div class="col-sm-12 section-t8">
-                    <div class="row">
-                    <div class="col-md-7">
+                <div className="col-sm-12 section-t8">
+                    <div className="row">
+                    <div className="col-md-7">
                         <form action="" method="post" role="form">
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <input type="text" name="name" class="form-control form-control-lg form-control-a" placeholder="Your Name" required />
+                        <div className="row">
+                            <div className="col-md-6 mb-3">
+                            <div className="form-group">
+                                <input type="text" name="name" className="form-control form-control-lg form-control-a" placeholder="Your Name" required />
                             </div>
                             </div>
-                            <div class="col-md-6 mb-3">
-                            <div class="form-group">
-                                <input name="email" type="email" class="form-control form-control-lg form-control-a" placeholder="Your Email" required />
+                            <div className="col-md-6 mb-3">
+                            <div className="form-group">
+                                <input name="email" type="email" className="form-control form-control-lg form-control-a" placeholder="Your Email" required />
                             </div>
                             </div>
-                            <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                                <input type="text" name="subject" class="form-control form-control-lg form-control-a" placeholder="Subject" required />
+                            <div className="col-md-12 mb-3">
+                            <div className="form-group">
+                                <input type="text" name="subject" className="form-control form-control-lg form-control-a" placeholder="Subject" required />
                             </div>
                             </div>
-                            <div class="col-md-12">
-                            <div class="form-group">
-                                <textarea name="message" class="form-control" cols="45" rows="8" placeholder="Message" required></textarea>
+                            <div className="col-md-12">
+                            <div className="form-group">
+                                <textarea name="message" className="form-control" cols="45" rows="8" placeholder="Message" required></textarea>
                             </div>
                             </div>
-                            <div class="col-md-12 my-3">
+                            <div className="col-md-12 my-3">
                             </div>
 
-                            <div class="col-md-12 text-center">
-                            <button type="submit" class="btn btn-success btn-lg">Send Message</button>
+                            <div className="col-md-12 text-center">
+                            <button type="submit" className="btn btn-success btn-lg">Send Message</button>
                             </div>
                         </div>
                         </form><br/>
                     </div>
-                    <div class="col-md-5 section-md-t3">
-                        <div class="icon-box section-b2">
-                        <div class="icon-box-icon">
-                            <span class="bi bi-envelope"></span>
+                    <div className="col-md-5 section-md-t3">
+                        <div className="icon-box section-b2">
+                        <div className="icon-box-icon">
+                            <span className="bi bi-envelope"></span>
                         </div>
-                        <div class="icon-box-content table-cell">
-                            <div class="icon-box-title">
-                            <h4 class="icon-title">Say Hello</h4>
+                        <div className="icon-box-content table-cell">
+                            <div className="icon-box-title">
+                            <h4 className="icon-title">Say Hello</h4>
                             </div>
-                            <div class="icon-box-content">
-                            <p class="mb-1">Email.
-                                <span class="color-a">trinityrx4@yahoo.com</span>
+                            <div className="icon-box-content">
+                            <p className="mb-1">Email.
+                                <span className="color-a">trinityrx4@yahoo.com</span>
                             </p>
-                            <p class="mb-1">Phone.
-                                <span class="color-a">0927 577 1245</span>
+                            <p className="mb-1">Phone.
+                                <span className="color-a">0927 577 1245</span>
                             </p>
                             </div>
                         </div>
                         </div>
-                        <div class="icon-box section-b2">
-                        <div class="icon-box-icon">
-                            <span class="bi bi-geo-alt"></span>
+                        <div className="icon-box section-b2">
+                        <div className="icon-box-icon">
+                            <span className="bi bi-geo-alt"></span>
                         </div>
-                        <div class="icon-box-content table-cell">
-                            <div class="icon-box-title">
-                            <h4 class="icon-title">Find us in</h4>
+                        <div className="icon-box-content table-cell">
+                            <div className="icon-box-title">
+                            <h4 className="icon-title">Find us in</h4>
                             </div>
-                            <div class="icon-box-content">
-                            <p class="mb-1">
+                            <div className="icon-box-content">
+                            <p className="mb-1">
                             Brgy. Disud, Sindangan, Philippines
                             </p>
                             </div>
                         </div>
                         </div>
-                        <div class="icon-box">
-                        <div class="icon-box-icon">
-                            <span class="bi bi-share"></span>
+                        <div className="icon-box">
+                        <div className="icon-box-icon">
+                            <span className="bi bi-share"></span>
                         </div>
-                        <div class="icon-box-content table-cell">
-                            <div class="icon-box-title">
-                            <h4 class="icon-title">Social networks</h4>
+                        <div className="icon-box-content table-cell">
+                            <div className="icon-box-title">
+                            <h4 className="icon-title">Social networks</h4>
                             </div>
-                            <div class="icon-box-content">
-                            <div class="socials-footer">
-                                <ul class="list-inline">
-                                <li class="list-inline-item">
+                            <div className="icon-box-content">
+                            <div className="socials-footer">
+                                <ul className="list-inline">
+                                <li className="list-inline-item">
                                     <Link href="https://www.facebook.com/jsbresidencesrealstate" passHref>
-                                    <a class="link-one" target="_blank">
-                                        <i class="bi bi-facebook" aria-hidden="true"></i>
+                                    <a className="link-one" target="_blank">
+                                        <i className="bi bi-facebook" aria-hidden="true"></i>
                                         </a>
                                     </Link>
                                 </li>

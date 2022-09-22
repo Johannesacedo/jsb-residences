@@ -1,13 +1,13 @@
 const Footer = () =>{
     return(
-        <footer class="bg-light text-center text-lg-start">
+        <footer className="bg-light text-center text-lg-start">
   
-            <div class="container p-4">
+            <div className="container p-4">
             
-                <div class="row">
+                <div className="row">
                 
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">Real Estate Developer</h5>
+                <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 className="text-uppercase">Real Estate Developer</h5>
 
                     <p>
                     Hurry and Reserve your Home of ELEGANT HOMES now! 
@@ -16,8 +16,8 @@ const Footer = () =>{
                     </p>
                 </div>
                 
-                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-                    <h5 class="text-uppercase">EXPERIENCE THE ELEGANT LIVING‼️</h5>
+                <div className="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 className="text-uppercase">EXPERIENCE THE ELEGANT LIVING‼️</h5>
 
                     <p>
                     JSB Residences pioneer in HIGH-END Elegant residential community ensuring Peace, 
@@ -29,7 +29,7 @@ const Footer = () =>{
                 
             </div>
             
-            <div class="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
+            <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
                 © 2020 Copyright: JSBResidences
             </div>
   

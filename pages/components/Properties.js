@@ -44,7 +44,7 @@ const Properties = () =>{
                      <div className='col-md-3'>
                             <div className="card" style={{width:'20rem'}}>
                                 <picture>
-                                <img src="/static/chiara_1.png" class="card-img-top" alt="..."/>
+                                <img src="/static/chiara_1.png" className="card-img-top" alt="..."/>
                                 </picture>
                                     <div className="card-body">
                                         <h5 className="card-title">Chiara</h5>
@@ -62,7 +62,7 @@ const Properties = () =>{
                      <div className='col-md-3'>
                             <div className="card" style={{width:'20rem'}}>
                                 <picture>
-                                <img src="/static/giada_1.png" class="card-img-top" alt="..."/>
+                                <img src="/static/giada_1.png" className="card-img-top" alt="..."/>
                                 </picture>
                                     <div className="card-body">
                                         <h5 className="card-title">Giada</h5>

@@ -26,7 +26,7 @@ const About = () =>{
                         <hr className="my-4" />
                         <div className='row'>
                             <div className='col-md-6'>
-                            <p class="lead fw-bold fs-1">About the Project</p>
+                            <p className="lead fw-bold fs-1">About the Project</p>
                             <p className='fs-2'>-is a 9,880 square meter gated house & lot development community located in Disud, Sindangan, ZN. It is the first modern contemporary homes offering properties rich in
                                 character and sophisticated in their thematic appeal.
                             </p>
@@ -40,7 +40,7 @@ const About = () =>{
                             </div>
                             <div className='col-md-6'>
                             
-                            <figure class="figure">
+                            <figure className="figure">
                                 <Image
                                 src="/static/about_2.png"
                                 className="figure-img img-fluid rounded"
