@@ -2,6 +2,11 @@
   padding: 0 2rem;
 }
 
+.mainColor{
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #d3e354 100%);
+}
+
 .main {
   min-height: 100vh;
   padding: 4rem 0;
@@ -108,10 +113,28 @@
   margin-left: 0.5rem;
 }
 
+.introSingle .titleSingleBox {
+  padding: 1rem 0 1rem 2rem;
+}
+
+.introSingle .titleSingleBox {
+  border-left: 5px solid #2eca6a;
+}
+
+.introSingle .titleSingleBox .titleSingle {
+  font-weight: 600;
+  font-size: 2.2rem;
+}
+
+
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .card img {
+    height: 11em;
   }
 }
 
