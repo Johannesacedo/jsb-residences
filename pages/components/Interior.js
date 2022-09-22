@@ -1,6 +1,7 @@
 import styles from '../../styles/Home.module.css'
 import cls from 'classnames'
 import Head from 'next/head'
+
 const Interior = () =>{
     return(
         <>
