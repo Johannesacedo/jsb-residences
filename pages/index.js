@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
        
       <main>
+      <br/><br/><br/><br/><br/>
        <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="true">
         <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -37,6 +38,7 @@ export default function Home() {
         </button>
       </div>
       </main>
+      <br/><br/><br/><br/><br/>
     </div>
   )
 }

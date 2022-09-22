@@ -1,6 +1,6 @@
 const Footer = () =>{
     return(
-        <footer className="bg-light text-center text-lg-start">
+        <footer className="bg-warning bg-gradient bg-opacity-10 text-center text-lg-start">
   
             <div className="container p-4">
             
@@ -29,7 +29,7 @@ const Footer = () =>{
                 
             </div>
             
-            <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)'}}>
+            <div className="text-center p-3 bg-success bg-gradient bg-opacity-10">
                 © 2020 Copyright: JSBResidences
             </div>
   

@@ -21,6 +21,21 @@ const Interior = () =>{
                 </div><br/><br/>
             </div>
             <div className='container'>
+            <div className='row'>
+                <div className='col-6'>
+                 <h3 className="mb-3">Interior Designs </h3>
+                </div>
+                <div class="col-6 text-end">
+                    <button className="btn btn-success mb-3" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
+                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Previous</span>
+                    </button>&nbsp;
+                    <button className="btn btn-success mb-3 mr-1" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span className="visually-hidden">Next</span>
+                    </button>
+                 </div>
+            </div>
             <div id="carouselExampleIndicators3" className="carousel slide" data-bs-ride="carousel">
                 <div className="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -36,66 +51,156 @@ const Interior = () =>{
                 </div>
                 <div className="carousel-inner">
                     <div className="carousel-item active">
-                    <picture>
-                    <img src="/static/model_1.png" className="d-block w-100" alt="..."/>
-                    </picture>
+                        <div className="row">
+
+                            <div className="col-md-4 mb-3">
+                                <div className="card">
+                                    <picture>
+                                    <img className="img-fluid" alt="100%x280" src="/static/model_1.png"/>
+                                    </picture>
+                                    <div className="card-body">
+                                        <h4 className="card-title">JSB Residences</h4>
+                                        <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="col-md-4 mb-3">
+                                <div className="card">
+                                    <picture>
+                                    <img className="img-fluid" alt="100%x280" src="/static/model_2.png"/>
+                                    </picture>
+                                    <div className="card-body">
+                                        <h4 className="card-title">JSB Residences</h4>
+                                        <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div className="col-md-4 mb-3">
+                                <div className="card">
+                                    <picture>
+                                    <img className="img-fluid" alt="100%x280" src="/static/model_3.png"/>
+                                    </picture>
+                                    <div className="card-body">
+                                        <h4 className="card-title">JSB Residences</h4>
+                                        <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div className="carousel-item">
-                    <picture>
-                    <img src="/static/model_2.png" className="d-block w-100" alt="..."/>
-                    </picture>
+                        <div className="row">
+                                <div className="col-md-4 mb-3">
+                                    <div className="card">
+                                        <picture>
+                                        <img className="img-fluid" alt="100%x280" src="/static/model_4.png"/>
+                                        </picture>
+                                        <div className="card-body">
+                                            <h4 className="card-title">JSB Residences</h4>
+                                            <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div className="col-md-4 mb-3">
+                                    <div className="card">
+                                        <picture>
+                                        <img className="img-fluid" alt="100%x280" src="/static/model_5.png"/>
+                                        </picture>
+                                        <div className="card-body">
+                                            <h4 className="card-title">JSB Residences</h4>
+                                            <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div className="col-md-4 mb-3">
+                                    <div className="card">
+                                        <picture>
+                                        <img className="img-fluid" alt="100%x280" src="/static/model_6.png"/>
+                                        </picture>
+                                        <div className="card-body">
+                                            <h4 className="card-title">JSB Residences</h4>
+                                            <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </div>
                     </div>
                     <div className="carousel-item">
-                    <picture>
-                    <img src="/static/model_3.png" className="d-block w-100" alt="..."/>
-                    </picture>
+                        <div className="row">
+                                <div className="col-md-4 mb-3">
+                                    <div className="card">
+                                        <picture>
+                                        <img className="img-fluid" alt="100%x280" src="/static/model_7.png"/>
+                                        </picture>
+                                        <div className="card-body">
+                                            <h4 className="card-title">JSB Residences</h4>
+                                            <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div className="col-md-4 mb-3">
+                                    <div className="card">
+                                        <picture>
+                                        <img className="img-fluid" alt="100%x280" src="/static/model_8.png"/>
+                                        </picture>
+                                        <div className="card-body">
+                                            <h4 className="card-title">JSB Residences</h4>
+                                            <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                                <div className="col-md-4 mb-3">
+                                    <div className="card">
+                                        <picture>
+                                        <img className="img-fluid" alt="100%x280" src="/static/model_9.png"/>
+                                        </picture>
+                                        <div className="card-body">
+                                        <h4 className="card-title">JSB Residences</h4>
+                                        <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+                        </div>
                     </div>
                     <div className="carousel-item">
-                    <picture>
-                    <img src="/static/model_4.png" className="d-block w-100" alt="..."/>
-                    </picture>
-                    </div>
-                    <div className="carousel-item">
-                    <picture>
-                    <img src="/static/model_5.png" className="d-block w-100" alt="..."/>
-                    </picture>
-                    </div>
-                    <div className="carousel-item">
-                    <picture>
-                    <img src="/static/model_6.png" className="d-block w-100" alt="..."/>
-                    </picture>
-                    </div>
-                    <div className="carousel-item">
-                    <picture>
-                    <img src="/static/model_7.png" className="d-block w-100" alt="..."/>
-                    </picture>
-                    </div>
-                    <div className="carousel-item">
-                    <picture>
-                    <img src="/static/model_8.png" className="d-block w-100" alt="..."/>
-                    </picture>
-                    </div>
-                    <div className="carousel-item">
-                    <picture>
-                    <img src="/static/model_9.png" className="d-block w-100" alt="..."/>
-                    </picture>
-                    </div>
-                    <div className="carousel-item">
-                    <picture>
-                    <img src="/static/model_10.png" className="d-block w-100" alt="..."/>
-                    </picture>
+                            <div className="row">
+                                    <div className="col-md-4 mb-3">
+                                        <div className="card">
+                                            <picture>
+                                            <img className="img-fluid" alt="100%x280" src="/static/model_10.png"/>
+                                            </picture>
+                                            <div className="card-body">
+                                            <h4 className="card-title">JSB Residences</h4>
+                                            <p className="card-text">Home of ELEGANT HOMES.</p>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                            </div>
                     </div>
                 </div>
-                <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
-                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Previous</span>
-                </button>
-                <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span className="visually-hidden">Next</span>
-                </button>
                 </div>
             </div>
+            <br/><br/><br/><br/><br/>
         </>
     )
 }
