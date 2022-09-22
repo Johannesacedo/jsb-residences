@@ -1,5 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
+import styles from '../../styles/nav.module.css'
+import cls from "classnames"
 const Navbar = () => {
   return (
     <nav className="navbar navbar-default navbar-expand-lg fixed-top bg-white">
@@ -20,38 +22,38 @@ const Navbar = () => {
         <div className="navbar-collapse collapse justify-content-center" id="navbarDefault">
             <ul className="navbar-nav">
 
-            <li className="nav-item">
-                <Link href="/">
-                <a className="nav-link active">Home</a>
-                </Link>
-            </li>
+                <li className="nav-item">
+                    <Link href="/">
+                    <a className={cls("nav-link","active",styles.link, styles.hover3)}>Home</a>
+                    </Link>
+                </li>
 
-            <li className="nav-item">
-                <Link href="/components/About">
-                <a className="nav-link ">About</a>
-                </Link>
-            </li>
+                <li className="nav-item">
+                    <Link href="/components/About">
+                    <a className={cls("nav-link","active",styles.link, styles.hover3)}>About</a>
+                    </Link>
+                </li>
 
-            <li className="nav-item">
-                <Link href='/components/Properties'>
-                <a className="nav-link ">Property</a>
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link href='/components/Sitemap'>
-                <a className="nav-link ">Sitemap</a>
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link href='/components/Interior'>
-                <a className="nav-link ">Interior</a>
-                </Link>
-            </li>
-            <li className="nav-item">
-                <Link href='/components/Contact'>
-                <a className="nav-link ">Contact</a>
-                </Link>
-            </li>
+                <li className="nav-item">
+                    <Link href='/components/Properties'>
+                    <a className={cls("nav-link","active",styles.link, styles.hover3)}>Property</a>
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link href='/components/Sitemap'>
+                    <a className={cls("nav-link","active",styles.link, styles.hover3)}>Sitemap</a>
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link href='/components/Interior'>
+                    <a className={cls("nav-link","active",styles.link, styles.hover3)}>Interior</a>
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link href='/components/Contact'>
+                    <a className={cls("nav-link","active",styles.link, styles.hover3)}>Contact</a>
+                    </Link>
+                </li>
             </ul>
         </div>
         </div>
